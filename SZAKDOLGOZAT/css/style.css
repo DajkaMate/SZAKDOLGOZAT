@@ -18,6 +18,10 @@
   ::-webkit-scrollbar-thumb:hover {
     background: var(--bs-gray-600);
   }
+  
+  .element-class {
+    scrollbar-gutter: stable both-edges;
+ }
 
 body{
     min-width: 350px;
@@ -32,6 +36,16 @@ nav li img{
     height: 25px;
     padding-right: 5px;
     padding-bottom: 2px;
+}
+
+.card-bg{
+    background-color: transparent;
+}
+
+.card:hover{
+    transition: 0.4s;
+    background: var(--bs-gray-800) !important;
+    -ms-zoom-animation: 1%;
 }
 
 .dropdown-menu-dark {
