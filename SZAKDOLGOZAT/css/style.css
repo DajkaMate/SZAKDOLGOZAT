@@ -64,12 +64,12 @@ nav li img{
 
 .rgb-bg{ 
     background: linear-gradient(220deg, #a500b4, #a80bb6, #1a119e, #08c5cf);
-    background-size: 1200% 1200%;
+    background-size: 1400% 1400%;
   
-  -webkit-animation: RGB 50s ease infinite;
-  -z-animation: RGB 50s ease infinite;
-  -o-animation: RGB 50s ease infinite;
-    animation: RGB 50s ease infinite;}
+  -webkit-animation: RGB 70s ease infinite;
+  -z-animation: RGB 70s ease infinite;
+  -o-animation: RGB 70s ease infinite;
+    animation: RGB 70s ease infinite;}
   
   @-webkit-keyframes RGB {
       0%{background-position:0% 80%}
@@ -96,8 +96,7 @@ nav li img{
     margin: auto;
     padding-left: 200px;
     padding-right: 200px;
-    padding-bottom: 120px;
-    padding-top: 120px;
+
 }
 
 .fb-btn{
@@ -202,8 +201,7 @@ option:hover {
     border-bottom: var(--bs-nav-tabs-border-width) solid var(--bs-nav-tabs-border-color);
 }
 
-.active{
-    
+ul li .active{
     border-bottom: var(--bs-dark) 1px solid !important;
 }
 
