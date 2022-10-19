@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>LOGO NAME</title>
+</head>
+
+<body>
+    <div class="">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top fs-5">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">LOGO HERE<img src="" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-auto">
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="HardwareCompare.html">Hardware Compare</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Games</a>
+                        </li>
+                        <li class="nav-item dropdown dropdown-menu-dark">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Supported Components
+                            </a>
+                            <ul class="nav-item dropdown-menu dropdown-menu-dark">
+                                <li>
+                                    <h6 class="dropdown-header">Videocards</h6>
+                                </li>
+                                <li><a class="dropdown-item" href="supported-nvidia.htm"><img src="img/Nvidia.logo.png"
+                                            alt="">Nvidia
+                                        Cards</a></li>
+                                <li><a class="dropdown-item" href="supported-amd.htm"><img src="img/AMD.logo.png" alt="">AMD
+                                        Cards</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <h6 class="dropdown-header">Processors</h6>
+                                </li>
+                                <li><a class="dropdown-item" href="#"><img src="img/Intel.logo.png" alt="">Intel
+                                        Processors</a></li>
+                                <li><a class="dropdown-item" href="#"><img src="img/Ryzen.logo.png" alt="">Ryzen
+                                        Processors</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex me-2" role="search">
+                        <select class="form-select border-white " aria-label="Default select example" placeholder="GPU">
+                            <option selected>Search for games</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                      </form>
+                    <a href="" class="aling-middle" data-bs-toggle="modal" data-bs-target="#LoginOverlay"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="35" height="35" class="bi bi-person-circle"
+                            viewBox="0 0 16 16">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                        </svg></a>
+                </div>
+            </div>
+        </nav>
+    
+        <div class="modal fade modal-lg" id="LoginOverlay" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-fullscreen-down">
+                <div class="bg-dark modal-content py-5 px-4">
+                    <div class="row">
+                        <div class="col-5 pt-0">
+                            <button type="submit" class="btn fb-btn btn-outline-light mb-1 w-100 mb-3">Login
+                                with <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                                    class="bi bi-facebook pb-1" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                </svg> Facebook</button>
+    
+                            <button type="submit" class="btn btn-outline-light g-btn w-100">Login with <img class="g-logo"
+                                    src="img/Google__G__Logo.svg" alt=""> Google</button>
+                            <hr class="text-white ">
+                            <div>
+                                <label for="exampleInputEmail1" class=" fs-5 text-white pb-0">Email
+                                    address</label>
+                                <input type="email" class="form-control mb-3" id="exampleInputEmail1"
+                                    placeholder="name@example.com" aria-describedby="emailHelp">
+                            </div>
+    
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class=" fs-5 text-white">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Password">
+                                <a class="forgot-pw " href="">Forgot your password?</a>
+                            </div>
+    
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input me-2 pb-1" id="RememberMe">
+                                <label class="form-check-label fs-6 pb-4 text-white" for="RememberMe">Remember me</label>
+    
+                            </div>
+                            <button type="submit" class="btn btn-outline-light mb-2 w-100">Login</button>
+                            <label class="fs-6 text-white pt-2 text-center" for="">Dont have an account?</label>
+                            
+                            <a href="SignUpPage.html" class="btn btn-dark mt-3 w-100">Sign Up</a>
+                        </div>
+                        <div class="col-7">
+                            <h3 class="text-white fs-1 pt-0 mb-3">Why sould i <br> Sign up?</h3>
+                            <p class="text-white fs-5 pb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum ducimus corrupti
+                                quisquam ullam vel facilis doloremque quasi delectus nobis molestias praesentium
+                                impedit, iste dolorum exercitationem sunt nihil officiis ipsum tempora?</p>
+                                <div class="bg-light rounded-4 placeholder w-100" aria-hidden="true">
+                                    <br><br><br> <br><br><br><br><br>
+                            </div>  
+                        </div>
+                    </div>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+
+    <div class="rgb-bg container-fluid ">
+        <div class="container-fluid" data-aos="fade-up">
+            <div class="container pt-5 pb-5">
+                <h2 class="text-white fs-1"><img class="" src="img/Nvidia.logo.png" alt=""> Supported Nvidia GPU-s</h2>
+                <p class="text-white fs-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi nihil quae sunt deserunt facilis
+                    dignissimos</p>
+            </div>
+        </div>
+    </div>
+    <div class="pb-5 bg-dark container-fluid">
+        <div class="container ">
+            <table class="table mytable table-responsive">
+                <h2 class="myh3 pt-5 fs-2 text-white">40 Series Specs</h2>
+                <thead>
+                    <tr>
+                        <th>Procuct name</th>
+                        <th class="text-center">Standard Memory Config</th>
+                        <th class="text-center">Memory Interface Width</th>
+                        <th class="text-center">Base Clock (GHz)</th>
+                        <th class="text-center">Boost Clock (GHz)</th>
+                        <th class="text-center">NVIDIA CUDA® Cores</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>GeForce RTX 4090</td>
+                        <td class="text-center">24 GB GDDR6X</td>
+                        <td class="text-center">384-bit</td>
+                        <td class="text-center">2.23</td>
+                        <td class="text-center">2.52</td>
+                        <td class="text-center">16384</td>
+                    </tr>
+                    <tr>
+                        <td>GeForce RTX 4080 (16GB)</td>
+                        <td class="text-center">16 GB GDDR6X</td>
+                        <td class="text-center">256-bit</td>
+                        <td class="text-center">2.21</td>
+                        <td class="text-center">2.51</td>
+                        <td class="text-center">9728</td>
+                    </tr>
+                    <tr>
+                        <td>GeForce RTX 4080 (12GB)</td>
+                        <td class="text-center">12 GB GDDR6X</td>
+                        <td class="text-center">192-bit</td>
+                        <td class="text-center">2.31</td>
+                        <td class="text-center">2.61</td>
+                        <td class="text-center">7680</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table mytable table-responsive">
+                <h2 class="myh3 pt-5 fs-2 text-white">EXAMPLE Series Specs</h2>
+                <thead>
+                    <tr>
+                        <th>Procuct name</th>
+                        <th class="text-center">Standard Memory Config</th>
+                        <th class="text-center">Memory Interface Width</th>
+                        <th class="text-center">Base Clock (GHz)</th>
+                        <th class="text-center">Boost Clock (GHz)</th>
+                        <th class="text-center">NVIDIA CUDA® Cores</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>GeForce EXAMPLE</td>
+                        <td class="text-center">EXAMPLE GB GDDR6X</td>
+                        <td class="text-center">EXAMPLE-bit</td>
+                        <td class="text-center">EXAMPLE</td>
+                        <td class="text-center">EXAMPLE</td>
+                        <td class="text-center">EXAMPLE</td>
+                    </tr>
+                    <tr>
+                        <td>GeForce EXAMPLE</td>
+                        <td class="text-center">EXAMPLE GB GDDR6X</td>
+                        <td class="text-center">EXAMPLE-bit</td>
+                        <td class="text-center">EXAMPLE</td>
+                        <td class="text-center">EXAMPLE</td>
+                        <td class="text-center">EXAMPLE</td>
+                    </tr>
+                    <tr>
+                        <td>GeForce EXAMPLE</td>
+                        <td class="text-center">EXAMPLE GB GDDR6X</td>
+                        <td class="text-center">EXAMPLE-bit</td>
+                        <td class="text-center">EXAMPLE</td>
+                        <td class="text-center">EXAMPLE</td>
+                        <td class="text-center">EXAMPLE</td>
+                    </tr>
+                    <tr>
+                        <td>GeForce EXAMPLE</td>
+                        <td class="text-center">EXAMPLE GB GDDR6X</td>
+                        <td class="text-center">EXAMPLE-bit</td>
+                        <td class="text-center">EXAMPLE</td>
+                        <td class="text-center">EXAMPLE</td>
+                        <td class="text-center">EXAMPLE</td>
+                    </tr>
+                    <tr>
+                        <td>GeForce EXAMPLE</td>
+                        <td class="text-center">EXAMPLE GB GDDR6X</td>
+                        <td class="text-center">EXAMPLE-bit</td>
+                        <td class="text-center">EXAMPLE</td>
+                        <td class="text-center">EXAMPLE</td>
+                        <td class="text-center">EXAMPLE</td>
+                    </tr>
+                    <tr>
+                        <td>GeForce EXAMPLE</td>
+                        <td class="text-center">EXAMPLE GB GDDR6X</td>
+                        <td class="text-center">EXAMPLE-bit</td>
+                        <td class="text-center">EXAMPLE</td>
+                        <td class="text-center">EXAMPLE</td>
+                        <td class="text-center">EXAMPLE</td>
+                    </tr>
+                    <tr>
+                        <td>GeForce EXAMPLE</td>
+                        <td class="text-center">EXAMPLE GB GDDR6X</td>
+                        <td class="text-center">EXAMPLE-bit</td>
+                        <td class="text-center">EXAMPLE</td>
+                        <td class="text-center">EXAMPLE</td>
+                        <td class="text-center">EXAMPLE</td>
+                    </tr>
+                    <tr>
+                        <td>GeForce EXAMPLE</td>
+                        <td class="text-center">EXAMPLE GB GDDR6X</td>
+                        <td class="text-center">EXAMPLE-bit</td>
+                        <td class="text-center">EXAMPLE</td>
+                        <td class="text-center">EXAMPLE</td>
+                        <td class="text-center">EXAMPLE</td>
+                    </tr>
+                    
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer class="bg-dark text-center text-lg-start">
+        <div class="text-center text-light p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-light" href="#">Noone</a>
+        </div>
+    </footer>
+    
+    </div>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</Html>
